@@ -13,6 +13,8 @@ return new class extends Migration
     {
         Schema::create('jobsearch', function (Blueprint $table) {
             $table->id();
+            $table->text("offers");
+            $table->string("updates");
             $table->timestamps();
         });
     }
