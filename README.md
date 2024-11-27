@@ -143,3 +143,7 @@ php artisan migrate:fresh
 ## Authors
 Developed by: 
 - Valeria Dobado Gonzalez: https://github.com/ugotchriscoded/ugotchriscoded
+
+## Languages
+
+## Tools
