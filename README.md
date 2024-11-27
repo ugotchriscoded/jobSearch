@@ -141,3 +141,5 @@ php artisan migrate:fresh
 ## :white_check_mark: Tests
 
 ## Authors
+Developed by: 
+- Valeria Dobado Gonzalez: https://github.com/ugotchriscoded/ugotchriscoded
