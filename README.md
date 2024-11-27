@@ -72,3 +72,26 @@ Creating a database in **Admin** **SQL**.
 In the *.env* file remove the # in these lines, enter the name of your database and replace **Laravel** with **sql**.
 
 (IMAGE)
+
+### Step 5: Server
+
+To **run the server** enter the command:
+
+```php
+npm run dev
+```
+
+(IMAGE)
+
+> [!WARNING]
+> We won´t work on that terminal again, but you should keep it working. Don't kill it.
+
+To see the **running serve** enter the command:
+
+```php
+php artisan serve
+```
+(IMAGE)
+
+> [!NOTE]
+> If you click the link it should take you to the **Laravel page**.
