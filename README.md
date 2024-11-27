@@ -43,3 +43,23 @@ You will have to **link it** to your **repository**.
 your repository.
 
 (IMAGE)
+
+### Step 3: Put everything up to date
+
+Switch branch to **dev** with the command:
+
+```php
+git switch dev
+```
+
+> [!CAUTION] 
+> Don't forget to use *git pull* to bring your repository branches.
+
+Then enter the command:
+
+```php
+npm install
+```
+
+> [!CAUTION] 
+> It may not work if you do not have **node.js** installed.
