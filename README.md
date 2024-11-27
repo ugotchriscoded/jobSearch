@@ -106,5 +106,32 @@ php artisan key:generate
 
 (IMAGE)
 
+### Step 7: Create tables 
+Enter this command so Laravel includes **viewable example tables** in the browser:
+
+```php
+php artisan migrate:fresh
+```
+
+(IMAGE)
+
+> [!NOTE]
+> These tables must appear within.
+
+To create a new table enter the commands:
+
+```php
+php artisan make:migration create_jobsearch_table
+```
+
+> [!CAUTION]
+> Other table must be created in the migrations folder. To update the info use:
+
+```php
+php artisan migrate:fresh
+```
+
+(IMAGE)
+
 > [!NOTE]
 > The new key will appear in this line of the *.env* file.
