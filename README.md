@@ -63,3 +63,12 @@ npm install
 
 > [!CAUTION] 
 > It may not work if you do not have **node.js** installed.
+
+### Step 4: Create database
+Creating a database in **Admin** **SQL**.
+
+(IMAGE)
+
+In the *.env* file remove the # in these lines, enter the name of your database and replace **Laravel** with **sql**.
+
+(IMAGE)
