@@ -10,3 +10,9 @@ To keep **track** of my day-to-day life at the level of my job search, I have cr
 - We have to be able to watch the show on **Endpoints** *(Blade)*
 - **Date management**: *1 creation*, *2 last modification*.
 - **test coverage**: *70% minimum*.
+
+## :eye_speech_bubble: Project overview
+
+## Project Diagram (BBDD)
+
+## :scroll: Installation
