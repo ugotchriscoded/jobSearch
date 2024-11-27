@@ -28,3 +28,18 @@ Enter the command in the **Git Bash** terminal:
 
 > [!NOTE] 
 > this command is used to install **Laravel** and **Composer**.
+
+### Step 2: Files and repository
+
+You must create a folder that will contain the **Laravel files** created **automatically**.
+
+> [!WARNING] 
+> Once created, you must open it **individually** from the folder where it is hosted on your device. Otherwise, you can that doesn't work properly.
+
+You will have to **link it** to your **repository**.
+
+> [!NOTE] 
+> If everything has gone well you should see the **Laravel** readme when opening
+your repository.
+
+(IMAGE)
