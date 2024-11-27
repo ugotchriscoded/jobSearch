@@ -135,3 +135,9 @@ php artisan migrate:fresh
 
 > [!NOTE]
 > The new key will appear in this line of the *.env* file.
+
+## Documentation (Endpoints)
+
+## :white_check_mark: Tests
+
+## Authors
