@@ -141,8 +141,9 @@ php artisan migrate:fresh
 ## :white_check_mark: Tests
 
 ## Authors
-Developed by: 
-- Valeria Dobado Gonzalez: https://github.com/ugotchriscoded/ugotchriscoded
+Developed by Valeria Dobado Gonzalez
+Github: https://github.com/ugotchriscoded/ugotchriscoded
+Linkendin: https://www.linkedin.com/in/valeria-dobado-gonz%C3%A1lez-262060328/
 
 ## Languages
 <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='php' src='https://img.shields.io/badge/php-100000?style=for-the-badge&logo=php&logoColor=white&labelColor=000000&color=000000'/></a>
