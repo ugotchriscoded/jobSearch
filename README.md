@@ -16,3 +16,15 @@ To keep **track** of my day-to-day life at the level of my job search, I have cr
 ## Project Diagram (BBDD)
 
 ## :scroll: Installation
+
+### Step 1: Preparing project
+
+Open the folder where you have **all your projects** in **Visual Studio** and
+Enter the command in the **Git Bash** terminal:
+
+```php
+ $ composer create-project --prefer-dist laravel/laravel jobSearch
+ ```
+
+> [!NOTE] 
+> this command is used to install **Laravel** and **Composer**.
