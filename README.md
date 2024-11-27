@@ -95,3 +95,16 @@ php artisan serve
 
 > [!NOTE]
 > If you click the link it should take you to the **Laravel page**.
+
+### Step 6: Key
+
+To generate an **application key** enter the command:
+
+```php
+php artisan key:generate
+```
+
+(IMAGE)
+
+> [!NOTE]
+> The new key will appear in this line of the *.env* file.
