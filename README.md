@@ -1,7 +1,7 @@
 # Proyect - Job Search App
 
 ## :bulb: Project description
-To keep **track** of my day-to-day life at the level of my job search, I have created a **job tracking application** in **Laravel**.
+To keep **track** of my day-to-day life at the level of my **job search**, I have created a **job tracking application** in **Laravel**.
 
 ## Requirements
 - **Display** all our **applied offers** with their **status** on the screen by **Endpoints** *(Blade).*
@@ -19,8 +19,7 @@ To keep **track** of my day-to-day life at the level of my job search, I have cr
 
 ### Step 1: Preparing project
 
-Open the folder where you have **all your projects** in **Visual Studio** and
-enter the command in the **Git Bash** terminal:
+Open the folder where you have **all your projects** in **Visual Studio** and enter the command in the **Git Bash** terminal:
 
 ```php
  $ composer create-project --prefer-dist laravel/laravel jobSearch
@@ -34,7 +33,7 @@ enter the command in the **Git Bash** terminal:
 You must create a folder that will contain the **Laravel files** created **automatically**.
 
 > [!WARNING] 
-> Once created, you must open it **individually** from the folder where it is hosted on your device. Otherwise, you can that doesn't work properly.
+> Once created, you must open it **individually** from the **folder** where it is **hosted** on your device. Otherwise, you can that doesn't work properly.
 
 You will have to **link it** to your **repository**.
 
@@ -52,7 +51,7 @@ git switch dev
 ```
 
 > [!CAUTION] 
-> Don't forget to use *git pull* to bring your repository branches.
+> Don't forget to use *git pull* to **bring** your repository **branches**.
 
 Then enter the command:
 
@@ -68,7 +67,7 @@ Creating a database in **Admin** **SQL**.
 
 (IMAGE)
 
-In the *.env* file remove the # in these lines, enter the name of your database and replace **Laravel** with **sql**.
+In the *.env* file **remove** the *#* in these lines, enter the **name** of your **database** and **replace** *Laravel* with *sql*.
 
 (IMAGE)
 
@@ -83,7 +82,7 @@ npm run dev
 (IMAGE)
 
 > [!WARNING]
-> We won´t work on that terminal again, but you should keep it working. Don't kill it.
+> **DON'T work** on that terminal again, but you should keep it working. **DON'T KILL IT.**
 
 To see the **running serve** enter the command:
 
@@ -115,16 +114,16 @@ php artisan migrate:fresh
 (IMAGE)
 
 > [!NOTE]
-> These tables must appear within.
+> These **tables** must appear within.
 
-To create a new table enter the commands:
+To create a **new table** enter the commands:
 
 ```php
 php artisan make:migration create_jobsearch_table
 ```
 
-> [!CAUTION]
-> Other table must be created in the migrations folder. To update the info use:
+> [!NOTE]
+> **Another table** must be created in the *migrations* folder. To **update** the info use:
 
 ```php
 php artisan migrate:fresh
@@ -133,16 +132,16 @@ php artisan migrate:fresh
 (IMAGE)
 
 > [!NOTE]
-> The new key will appear in this line of the *.env* file.
+> The new **key** will appear in this line of the *.env* file.
 
 ## Documentation (Endpoints)
 
 ## :white_check_mark: Tests
 
 ## Authors
-Developed by Valeria Dobado Gonzalez:
-- Github: https://github.com/ugotchriscoded/ugotchriscoded
-- Linkendin: https://www.linkedin.com/in/valeria-dobado-gonz%C3%A1lez-262060328/
+Developed by **Valeria Dobado Gonzalez**:
+- **Github**: *https://github.com/ugotchriscoded/ugotchriscoded*
+- **Linkendin**: *https://www.linkedin.com/in/valeria-dobado-gonz%C3%A1lez-262060328/*
 
 ## Languages
 <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='php' src='https://img.shields.io/badge/php-100000?style=for-the-badge&logo=php&logoColor=white&labelColor=000000&color=000000'/></a>
