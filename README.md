@@ -40,7 +40,7 @@ You will have to **link it** to your **repository**.
 > [!NOTE] 
 > If everything has gone well you should see the **Laravel** readme when opening your repository.
 
-<img width="292" alt="image" src="https://github.com/user-attachments/assets/c7c0939c-89f2-488a-be47-06fbaa37c08f">
+<p align="center"><img width="292" alt="image" src="https://github.com/user-attachments/assets/c7c0939c-89f2-488a-be47-06fbaa37c08f"></p>
 
 
 ### Step 3: Put everything up to date
@@ -66,11 +66,11 @@ npm install
 ### Step 4: Create database
 Creating a database in **Admin** **SQL**.
 
-<img width="200" alt="image" src="https://github.com/user-attachments/assets/f8149ac2-e430-422b-ae0b-bfbb77751035">
+<p align="center"><img width="200" alt="image" src="https://github.com/user-attachments/assets/f8149ac2-e430-422b-ae0b-bfbb77751035"></p>
 
 In the *.env* file **remove** the *#* in these lines, enter the **name** of your **database** and **replace** *Laravel* with *sql*.
 
-<img width="287" alt="image" src="https://github.com/user-attachments/assets/bdfec806-cdcc-4a05-a6bf-43a59cc7658e">
+<p align="center"><img width="287" alt="image" src="https://github.com/user-attachments/assets/bdfec806-cdcc-4a05-a6bf-43a59cc7658e"></p>
 
 
 ### Step 5: Server
@@ -81,7 +81,7 @@ To **run the server** enter the command:
 npm run dev
 ```
 
-<img width="317" alt="image" src="https://github.com/user-attachments/assets/ff2e3e05-881e-49e7-9b02-e80db682cd3e">
+<p align="center"><img width="317" alt="image" src="https://github.com/user-attachments/assets/ff2e3e05-881e-49e7-9b02-e80db682cd3e"></p>
 
 
 > [!WARNING]
@@ -92,7 +92,7 @@ To see the **running serve** enter the command:
 ```php
 php artisan serve
 ```
-<img width="372" alt="image" src="https://github.com/user-attachments/assets/b6f696e7-8843-4bfc-9938-95c3a23ec47c">
+<p align="center"><img width="372" alt="image" src="https://github.com/user-attachments/assets/b6f696e7-8843-4bfc-9938-95c3a23ec47c"></p>
 
 
 > [!NOTE]
@@ -106,7 +106,7 @@ To generate an **application key** enter the command:
 php artisan key:generate
 ```
 
-<img width="376" alt="image" src="https://github.com/user-attachments/assets/6505ead1-d6ca-4070-b870-7314f1e4b777">
+<p align="center"><img width="376" alt="image" src="https://github.com/user-attachments/assets/6505ead1-d6ca-4070-b870-7314f1e4b777"></p>
 
 
 ### Step 7: Create tables 
@@ -116,7 +116,7 @@ Enter this command so Laravel includes **viewable example tables** in the browse
 php artisan migrate:fresh
 ```
 
-<img width="247" alt="image" src="https://github.com/user-attachments/assets/86e0b513-5a75-4ea8-bc42-7bf4ddf4c311">
+<p align="center"><img width="247" alt="image" src="https://github.com/user-attachments/assets/86e0b513-5a75-4ea8-bc42-7bf4ddf4c311"></p>
 
 
 > [!NOTE]
@@ -135,7 +135,7 @@ php artisan make:migration create_jobsearch_table
 php artisan migrate:fresh
 ```
 
-<img width="203" alt="image" src="https://github.com/user-attachments/assets/d4c61732-3f2a-4798-a4dc-83c25ff3fdf3">
+<p align="center"><img width="203" alt="image" src="https://github.com/user-attachments/assets/d4c61732-3f2a-4798-a4dc-83c25ff3fdf3"></p>
 
 
 > [!NOTE]
