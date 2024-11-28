@@ -40,7 +40,8 @@ You will have to **link it** to your **repository**.
 > [!NOTE] 
 > If everything has gone well you should see the **Laravel** readme when opening your repository.
 
-(IMAGE)
+<img width="292" alt="image" src="https://github.com/user-attachments/assets/c7c0939c-89f2-488a-be47-06fbaa37c08f">
+
 
 ### Step 3: Put everything up to date
 
@@ -65,11 +66,12 @@ npm install
 ### Step 4: Create database
 Creating a database in **Admin** **SQL**.
 
-(IMAGE)
+<img width="200" alt="image" src="https://github.com/user-attachments/assets/f8149ac2-e430-422b-ae0b-bfbb77751035">
 
 In the *.env* file **remove** the *#* in these lines, enter the **name** of your **database** and **replace** *Laravel* with *sql*.
 
-(IMAGE)
+<img width="287" alt="image" src="https://github.com/user-attachments/assets/bdfec806-cdcc-4a05-a6bf-43a59cc7658e">
+
 
 ### Step 5: Server
 
@@ -79,7 +81,8 @@ To **run the server** enter the command:
 npm run dev
 ```
 
-(IMAGE)
+<img width="317" alt="image" src="https://github.com/user-attachments/assets/ff2e3e05-881e-49e7-9b02-e80db682cd3e">
+
 
 > [!WARNING]
 > **DON'T work** on that terminal again, but you should keep it working. **DON'T KILL IT.**
@@ -89,7 +92,8 @@ To see the **running serve** enter the command:
 ```php
 php artisan serve
 ```
-(IMAGE)
+<img width="372" alt="image" src="https://github.com/user-attachments/assets/b6f696e7-8843-4bfc-9938-95c3a23ec47c">
+
 
 > [!NOTE]
 > If you click the link it should take you to the **Laravel page**.
@@ -102,7 +106,8 @@ To generate an **application key** enter the command:
 php artisan key:generate
 ```
 
-(IMAGE)
+<img width="376" alt="image" src="https://github.com/user-attachments/assets/6505ead1-d6ca-4070-b870-7314f1e4b777">
+
 
 ### Step 7: Create tables 
 Enter this command so Laravel includes **viewable example tables** in the browser:
@@ -111,7 +116,8 @@ Enter this command so Laravel includes **viewable example tables** in the browse
 php artisan migrate:fresh
 ```
 
-(IMAGE)
+<img width="247" alt="image" src="https://github.com/user-attachments/assets/86e0b513-5a75-4ea8-bc42-7bf4ddf4c311">
+
 
 > [!NOTE]
 > These **tables** must appear within.
@@ -129,7 +135,8 @@ php artisan make:migration create_jobsearch_table
 php artisan migrate:fresh
 ```
 
-(IMAGE)
+<img width="203" alt="image" src="https://github.com/user-attachments/assets/d4c61732-3f2a-4798-a4dc-83c25ff3fdf3">
+
 
 > [!NOTE]
 > The new **key** will appear in this line of the *.env* file.
