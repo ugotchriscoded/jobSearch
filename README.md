@@ -1,6 +1,8 @@
 # Proyect - Job Search App
 
 ## :bulb: Project description
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+
 To keep **track** of my day-to-day life at the level of my **job search**, I have created a **job tracking application** in **Laravel**.
 
 ## Requirements
