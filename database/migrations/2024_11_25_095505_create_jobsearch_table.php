@@ -13,8 +13,10 @@ return new class extends Migration
     {
         Schema::create('offers', function (Blueprint $table) {
             $table->id();
-            $table->string("offers");
-            $table->string("updates");
+            $table->string('title');
+            $table->string('enterprise');
+            $table->text('description');
+            $table->boolean('status');
             $table->timestamps();
         });
     }
@@ -24,6 +26,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('jobsearch');
+        Schema::dropIfExists('offers');
     }
 };
