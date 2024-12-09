@@ -5,7 +5,7 @@ namespace Database\Factories;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Model>
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Offer>
  */
 class OfferFactory extends Factory
 {
@@ -17,9 +17,10 @@ class OfferFactory extends Factory
     public function definition(): array
     {
         return [
-            //
-            'offers' => $this->faker->realText($maxNbChars = 200),
-            'updates' => $this->faker->imageUrl(),
+            'title' => $this->faker->company(),
+            'enterprise' => $this->faker->company(),
+            'description' => $this ->faker->realText($maxNbChars = 200),
+            'status' => $this->faker->boolean(),
         ];
     }
 }
