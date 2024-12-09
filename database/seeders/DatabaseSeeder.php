@@ -22,5 +22,17 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Offer::factory(5)-> create();
+        Feedback::factory(10)->create([
+            'news' => 'sadasfasffsaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
+            'offer_id' => 1,
+        ]);
+        Feedback::factory(10)->create([
+            'news' => 'sadasfasffsaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
+            'offer_id' => 2,
+        ]);
+        Feedback::factory(10)->create([
+            'news' => 'sadasfasffsaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
+            'offer_id' => 3,
+        ]);
     }
 }
