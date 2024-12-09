@@ -9,8 +9,15 @@ class Offer extends Model
     //
     use HasFactory;
     protected $fillable = [
-    "offer",
-    "updates",
+    "title",
+    "enterprise",
+    'description',
+    'status',
 
     ];
+
+    public function feedback()
+    {
+        return $this->hasMany(Feedback::class);
+    }
 }
