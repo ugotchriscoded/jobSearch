@@ -16,7 +16,7 @@
             </th>
             <tb>
                 @foreach ($offers as $offer)
-                        <tr class="row" data-href="{{route('show', $offer->id)}}">
+                        <tr>
                             <td>{{$offer->title}}</td>
                             <td>{{$offer->enterprise}}</td>
                             <td>{{$offer->description}}</td>
@@ -28,6 +28,7 @@
                                     @endif
                                 </td>
                             <td>{{$offer->created_at}}</td>
+                        <td><a href="{{route('show',$offer->id)}}">🆕</a></td>
                         </tr>    
                 @endforeach
             </tb>
