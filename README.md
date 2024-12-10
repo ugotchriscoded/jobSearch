@@ -149,6 +149,24 @@ php artisan migrate:fresh
 
 ## :white_check_mark: Tests
 
+> [!IMPORTANT]
+>  Testing the project so we can check if it works correctly using this command:
+
+```php
+php artisan test
+```
+![tests readme](https://github.com/user-attachments/assets/5670b327-2220-4e31-93d8-3e1bf3f71250)
+
+### Coverage
+
+use this command:
+
+```php
+php artisan test --coverage-html=coverage-report
+```
+> [!NOTE]
+>  You need to use the command each time you do a new test, so it can update your coverage.
+
 ## Authors
 Developed by **Valeria Dobado Gonzalez**:
 - **Github**: *https://github.com/ugotchriscoded/ugotchriscoded*
