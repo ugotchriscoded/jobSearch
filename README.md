@@ -17,6 +17,8 @@ To keep **track** of my day-to-day life at the level of my **job search**, I hav
 
 ## Project Diagram (BBDD)
 
+![BBDD](https://github.com/user-attachments/assets/b3156863-3f33-4ff9-9285-38492a79b6a7)
+
 ## :scroll: Installation
 
 ### Step 1: Preparing project
