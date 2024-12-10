@@ -4,6 +4,7 @@
 
 
     <div class="offers">
+    <h2 class="offer->feedback">Offers</h2>
         <table class="table">
             <th>
                 <tr class="t" >

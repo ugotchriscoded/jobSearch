@@ -1,0 +1,14 @@
+header{
+    text-align: center;
+    display:flex;
+    align-content: center;
+    background-color:#3a4b92 ;
+    color: #fffdf7;
+    padding: 1%;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
