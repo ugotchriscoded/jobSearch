@@ -135,13 +135,13 @@ http://127.0.0.1:8000/api/offers
 ### Store (POST)
 
 ```php
-http://127.0.0.1:8000/api/offers/1/news
+http://127.0.0.1:8000/api/offers/id/news
 ```
 
 ### Update (PUT)
 
 ```php
-http://127.0.0.1:8000/api/offers/1/news/1
+http://127.0.0.1:8000/api/offers/id/news/id
 ```
 
 
