@@ -122,7 +122,8 @@ http://127.0.0.1:8000/api/offers/id/news/id
 ```php
 php artisan test
 ```
-![tests readme](https://github.com/user-attachments/assets/5670b327-2220-4e31-93d8-3e1bf3f71250)
+![tests readme](https://github.com/user-attachments/assets/9215c276-9732-4992-8efb-c81f5799dabc)
+
 
 ### Coverage
 
@@ -131,8 +132,12 @@ Use this command:
 ```php
 php artisan test --coverage-html=coverage-report
 ```
+
 > [!NOTE]
->  You need to use the command each time you do a new test, so it can update your coverage.
+>  You need to use the command each time you do a new test, so it can update your coverage. To see your test open the coverage report folder arhives *index.html* and *dashboard.html*
+
+![coverage](https://github.com/user-attachments/assets/a01b9038-cc08-4b29-8d84-1223b7f996d9)
+
 
 ## Authors
 Developed by **Valeria Dobado Gonzalez**:
