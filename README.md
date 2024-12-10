@@ -36,65 +36,27 @@ If you can't install XAPP, you can also use another local server that supports M
 
 ## :scroll: Installation
 
-### Step 1: Preparing project
+### Step 1: Creating database
 
-Open the folder where you have **all your projects** in **Visual Studio** and enter the command in the **Git Bash** terminal:
-
-```php
- $ composer create-project --prefer-dist laravel/laravel jobSearch
- ```
-
-> [!NOTE] 
-> this command is used to install **Laravel** and **Composer**.
-
-### Step 2: Files and repository
-
-You must create a folder that will contain the **Laravel files** created **automatically**.
-
-> [!WARNING] 
-> Once created, you must open it **individually** from the **folder** where it is **hosted** on your device. Otherwise, you can that doesn't work properly.
-
-You will have to **link it** to your **repository**.
-
-> [!NOTE] 
-> If everything has gone well you should see the **Laravel** readme when opening your repository.
-
-<p align="center"><img width="292" alt="image" src="https://github.com/user-attachments/assets/c7c0939c-89f2-488a-be47-06fbaa37c08f"></p>
-
-
-### Step 3: Put everything up to date
-
-Switch branch to **dev** with the command:
-
-```php
-git switch dev
-```
-
-> [!CAUTION] 
-> Don't forget to use *git pull* to **bring** your repository **branches**.
-
-Then enter the command:
-
-```php
-npm install
-```
-
-> [!CAUTION] 
-> It may not work if you do not have **node.js** installed.
-
-### Step 4: Create database
 Creating a database in **Admin** **SQL**.
 
 <p align="center"><img width="200" alt="image" src="https://github.com/user-attachments/assets/f8149ac2-e430-422b-ae0b-bfbb77751035"></p>
+
+
+### Step 2: Cloning repository
+
+```php
+git clone https://github.com/ugotchriscoded/jobSearch
+ ```
+### Step 3: Putting everything up to date
 
 In the *.env* file **remove** the *#* in these lines, enter the **name** of your **database** and **replace** *Laravel* with *sql*.
 
 <p align="center"><img width="287" alt="image" src="https://github.com/user-attachments/assets/bdfec806-cdcc-4a05-a6bf-43a59cc7658e"></p>
 
+### Server
 
-### Step 5: Server
-
-To **run the server** enter the command:
+To **run the server** enter this command:
 
 ```php
 npm run dev
@@ -115,7 +77,7 @@ php artisan serve
 
 
 > [!NOTE]
-> If you click the link it should take you to the **Laravel page**.
+> If you press Control and click the link it should take you to the main offers.
 
 
 ## Documentation (Endpoints)
@@ -141,7 +103,7 @@ http://127.0.0.1:8000/api/offers/id/news
 ### Delete (DEL)
 
 ```php
-http://127.0.0.1:8000/api/offers/id/news
+http://127.0.0.1:8000/api/offers/id/news/id
 ```
 
 ### Update (PUT)
@@ -164,7 +126,7 @@ php artisan test
 
 ### Coverage
 
-use this command:
+Use this command:
 
 ```php
 php artisan test --coverage-html=coverage-report
