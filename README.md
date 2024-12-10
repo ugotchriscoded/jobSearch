@@ -138,6 +138,12 @@ http://127.0.0.1:8000/api/offers
 http://127.0.0.1:8000/api/offers/id/news
 ```
 
+### Delete (DEL)
+
+```php
+http://127.0.0.1:8000/api/offers/id/news
+```
+
 ### Update (PUT)
 
 ```php
