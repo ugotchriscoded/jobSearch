@@ -120,6 +120,32 @@ php artisan serve
 
 ## Documentation (Endpoints)
 
+### Index (GET)
+
+```php
+http://127.0.0.1:8000/api/offers
+```
+
+### Show (GET)
+
+```php
+http://127.0.0.1:8000/api/offers
+```
+
+### Store (POST)
+
+```php
+http://127.0.0.1:8000/api/offers/1/news
+```
+
+### Update (PUT)
+
+```php
+http://127.0.0.1:8000/api/offers/1/news/1
+```
+
+
+
 ## :white_check_mark: Tests
 
 > [!IMPORTANT]
