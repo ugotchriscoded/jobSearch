@@ -19,6 +19,21 @@ To keep **track** of my day-to-day life at the level of my **job search**, I hav
 
 ![BBDD](https://github.com/user-attachments/assets/b3156863-3f33-4ff9-9285-38492a79b6a7)
 
+## :scroll: Installation requirements
+
+:black_circle: XAMPP
+
+:black_circle: Composer
+
+:black_circle: Node.js (Installing NPM)
+
+:black_circle: Xdebug 
+
+:black_circle: Postman
+
+> [!NOTE] 
+If you can't install XAPP, you can also use another local server that supports MySQL and PHP.
+
 ## :scroll: Installation
 
 ### Step 1: Preparing project
@@ -102,48 +117,6 @@ php artisan serve
 > [!NOTE]
 > If you click the link it should take you to the **Laravel page**.
 
-### Step 6: Key
-
-To generate an **application key** enter the command:
-
-```php
-php artisan key:generate
-```
-
-<p align="center"><img width="376" alt="image" src="https://github.com/user-attachments/assets/6505ead1-d6ca-4070-b870-7314f1e4b777"></p>
-
-
-### Step 7: Create tables 
-Enter this command so Laravel includes **viewable example tables** in the browser:
-
-```php
-php artisan migrate:fresh
-```
-
-<p align="center"><img width="247" alt="image" src="https://github.com/user-attachments/assets/86e0b513-5a75-4ea8-bc42-7bf4ddf4c311"></p>
-
-
-> [!NOTE]
-> These **tables** must appear within.
-
-To create a **new table** enter the commands:
-
-```php
-php artisan make:migration create_jobsearch_table
-```
-
-> [!NOTE]
-> **Another table** must be created in the *migrations* folder. To **update** the info use:
-
-```php
-php artisan migrate:fresh
-```
-
-<p align="center"><img width="203" alt="image" src="https://github.com/user-attachments/assets/d4c61732-3f2a-4798-a4dc-83c25ff3fdf3"></p>
-
-
-> [!NOTE]
-> The new **key** will appear in this line of the *.env* file.
 
 ## Documentation (Endpoints)
 
