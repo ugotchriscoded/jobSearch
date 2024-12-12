@@ -15,6 +15,9 @@ To keep **track** of my day-to-day life at the level of my **job search**, I hav
 
 ## :eye_speech_bubble: Project overview
 
+![Captura de pantalla 2024-12-10 123420](https://github.com/user-attachments/assets/b20ebfca-44e4-4b8d-b4e9-e424f7c08503)
+
+
 ## Project Diagram (BBDD)
 
 ![BBDD](https://github.com/user-attachments/assets/b3156863-3f33-4ff9-9285-38492a79b6a7)
