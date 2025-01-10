@@ -43,7 +43,7 @@ If you can't install XAPP, you can also use another local server that supports M
 
 Creating a database in **Admin** **SQL**.
 
-<p align="center"><img width="200" alt="image" src="https://github.com/user-attachments/assets/f8149ac2-e430-422b-ae0b-bfbb77751035"></p>
+(insert screenshoot)
 
 
 ### Step 2: Cloning repository
